@@ -10,7 +10,7 @@ app.appendChild(logo);
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://api.open5e.com/monsters/?format=api', true);
+request.open('GET', 'https://api.open5e.com/monsters/?challenge_rating=3', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
